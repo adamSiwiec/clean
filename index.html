@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-    <title>Parallax Template - Materialize</title>
+    <title>Clean Website</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,19 +13,22 @@
 </head>
 
 <body>
-    <nav class="white" role="navigation">
+    <nav id = "top" class="white" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo">Logo</a>
+            <a id="logo-container" href="#" class="brand-logo waves-effect waves-light">Hey Gabe</a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">About</a></li>
+                <li><a href="#about" class="waves-effect waves-light smooth-scrolling">About</a></li>
+                <li><a href="#contact" class="waves-effect waves-light smooth-scrolling">Contact</a></li>
+                <li><a href="#" class="waves-effect waves-light">Español?</a></li>
 
-                <li><a href="#">Contact</a></li>
+
 
             </ul>
 
             <ul id="nav-mobile" class="side-nav">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about" class = "smooth-scrolling">About</a></li>
+                <li><a href="#contact" class = "smooth-scrolling">Contact</a></li>
+                <li><a href="#">Español?</a></li>
 
             </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse btn-floating btn-large blue darken-1 "><i class="material-icons">menu</i></a>
@@ -41,7 +44,7 @@
                     <h5 class="header col s12 grey-text text-lighten-2">A modern responsive front-end framework based on Material Design</h5>
                 </div>
                 <div class="row center">
-                    <a href="#" id="download-button" class="btn-large waves-effect waves-light blue darken-1 ">Get Started</a>
+                    <a href="#contact" id="download-button" class="btn-large waves-effect waves-light blue darken-1 smooth-scrolling ">Get Started</a>
                 </div>
                 <br><br>
 
@@ -51,15 +54,15 @@
     </div>
 
 
-    <div class="container">
+    <div class="container" id = "about">
         <div class="section">
 
             <!--   Icon Section   -->
-            <div class="row">
+            <div class="row" >
                 <div class="col s12 m4 reveal">
                     <div class="icon-block">
                         <h2 class="center blue-text"><i class="material-icons">flash_on</i></h2>
-                        <h5 class="center">Speeds up development</h5>
+                        <h5 class="center"><a class= "tooltipped black-text" data-position="bottom" data-delay="50" data-tooltip="Yes">Fast</a></h5>
 
                         <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
                     </div>
@@ -68,7 +71,7 @@
                 <div class="col s12 m4 reveal">
                     <div class="icon-block">
                         <h2 class="center blue-text"><i class="material-icons">group</i></h2>
-                        <h5 class="center">User Experience Focused</h5>
+                        <h5 class="center"><a class= "tooltipped black-text" data-position="bottom" data-delay="50" data-tooltip="Yes">Friendly</a></h5>
 
                         <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across
                             all platforms allow for a more unified user experience.</p>
@@ -78,7 +81,7 @@
                 <div class="col s12 m4 reveal">
                     <div class="icon-block">
                         <h2 class="center blue-text"><i class="material-icons">settings</i></h2>
-                        <h5 class="center">Easy to work with</h5>
+                        <h5 class="center"><a class= "tooltipped black-text" data-position="bottom" data-delay="50" data-tooltip="Yes">Reliable</a></h5>
 
                         <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
                     </div>
@@ -89,7 +92,7 @@
     </div>
 
 
-    <div class="parallax-container valign-wrapper">
+    <div class="parallax-container valign-wrapper" id = "quote1">
         <div class="section no-pad-bot">
             <div class="container">
                 <div class="row center">
@@ -100,14 +103,14 @@
         <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
     </div>
 
-    <div class="container">
+    <div class="container" id  = "contact">
         <div class="section">
 
-            <div class="row revealnoani">
+            <div class="row revealnoani" >
                 <div class="col s12 center">
                     <h3><i class="mdi-content-send brown-text"></i></h3>
                     <h4>Contact Us</h4>
-                    <p class="left-align light flow-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien
+                    <p class="left-align light ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien
                         id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed
                         ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
                 </div>
@@ -117,7 +120,7 @@
     </div>
 
 
-    <div class="parallax-container valign-wrapper">
+    <div class="parallax-container valign-wrapper" id = "quote2">
         <div class="section no-pad-bot">
             <div class="container">
                 <div class="row center">
@@ -128,7 +131,7 @@
         <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
     </div>
 
-    <footer class="page-footer blue">
+    <footer class="page-footer blue" id = "footer">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
@@ -164,13 +167,49 @@
         </div>
     </footer>
 
+    <a id="to-top" href="#top" class="btn " style="display: block !important; position: fixed !important;"><i class="material-icons">navigation</i></a>
+
+
 
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!--<script src="https://uery.com/jquery-2.1.1.min.js"></script> -->
     <script src="js/materialize.min.js"></script>
     <script src="js/init.js"></script>
     <script src="js/scrollreveal.min.js"></script>
+
+
+
     <script>
+        // Scrolls to the selected menu item on the page
+        $('.smooth-scrolling').click(function() {
+    var href = $(this).attr('href');
+    $('html, body').animate({
+          scrollTop: $(href).offset().top
+     }, 1000);
+});
+
+   //      //#to-top button appears after scrolling
+   //      $(document).ready(function () {
+   //     ToggleScrollUp();
+   //
+   //     $(window).scroll(function () {
+   //         ToggleScrollUp();
+   //     });
+   //
+   //     $('#to-top').click(function () {
+   //         $("html, body").animate({ scrollTop: 0 }, 500);
+   //         return false;
+   //     });
+   // });
+   //
+   // function ToggleScrollUp() {
+   //     if ($("#top").offset().top < $(window).scrollTop() + $(window).height()) {
+   //         $('#to-top').fadeIn();
+   //     } else {
+   //         $('#to-top').fadeOut();
+   //     }
+   // }
         // JavaScript
         window.sr = ScrollReveal({
             reset: true
