@@ -21,3 +21,8 @@ sr.reveal('.reveal', {
 sr.reveal('.revealnoani', {
     duration: 1000
 });
+
+
+$(document).ready(function() {
+    $("body").css("visibility", "visible");
+});
