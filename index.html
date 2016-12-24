@@ -8,9 +8,6 @@
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-</head>
 
 <body>
     <nav id="top" class="white" role="navigation">
@@ -52,7 +49,7 @@
 
             </div>
         </div>
-        <div class="parallax"><img src="clean1.jpg" alt="Unsplashed background img 1"></div>
+        <div class="parallax"><img src="dist/img/clean1.jpg" alt="Unsplashed background img 1"></div>
     </div>
 
 
@@ -102,7 +99,7 @@
                 </div>
             </div>
         </div>
-        <div class="parallax"><img src="clean2.jpg" alt="Unsplashed background img 2"></div>
+        <div class="parallax"><img src="dist/img/clean2.jpg" alt="Unsplashed background img 2"></div>
     </div>
 
     <div class="container" id="about">
@@ -130,7 +127,7 @@
                 </div>
             </div>
         </div>
-        <div class="parallax"><img src="clean3.jpg" alt="Unsplashed background img 3"></div>
+        <div class="parallax"><img src="dist/img/clean3.jpg" alt="Unsplashed background img 3"></div>
     </div>
 
     <footer class="page-footer blue" id="contact">
@@ -170,40 +167,8 @@
     </footer>
 
     <a id="to-top" href="#top" class="btn " style="display: block !important; position: fixed !important;"><i class="material-icons">navigation</i></a>
-
-
-
     <!--  Scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <!--<script src="https://uery.com/jquery-2.1.1.min.js"></script> -->
-    <script src="js/materialize.min.js"></script>
-    <script src="js/init.js"></script>
-    <script src="js/scrollreveal.min.js"></script>
-
-
-
-    <script>
-        // Scrolls to the selected menu item on the page
-        $('.smooth-scrolling').click(function() {
-            var href = $(this).attr('href');
-            $('html, body').animate({
-                scrollTop: $(href).offset().top
-            }, 1000);
-        });
-
-
-        // Reveal
-        window.sr = ScrollReveal({
-            reset: true
-        });
-
-        sr.reveal('.reveal', {
-            duration: 800
-        }, 500);
-        sr.reveal('.revealnoani', {
-            duration: 1000
-        });
-    </script>
+    <script src = "dist/app.bundle.js"></script>
 </body>
 
 </html>
