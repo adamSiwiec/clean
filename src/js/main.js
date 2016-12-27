@@ -26,3 +26,6 @@ sr.reveal('.revealnoani', {
 $(document).ready(function() {
     $("body").css("visibility", "visible");
 });
+
+
+$('.angled-border').angledBorder();
