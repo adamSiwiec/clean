@@ -29,3 +29,8 @@ $(document).ready(function() {
 
 
 $('.angled-border').angledBorder();
+$('.nav-button').hide();
+
+$(window).scroll(function() {
+    $('.nav-button').show();
+});
