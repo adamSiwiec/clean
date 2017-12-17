@@ -34,3 +34,13 @@ $('.nav-button').hide();
 $(window).scroll(function() {
     $('.nav-button').show();
 });
+
+
+$('.trans').on('click', function(e) {
+
+    window.location.href += "#googtrans(en|es)";
+    location.reload();
+
+
+
+})
